@@ -16,7 +16,7 @@ class Get(ABC):
 class Post(ABC):
     """Read resource abstractions."""
     @abstractmethod
-    def post(self, resource):
+    def post(self, resource, data):
         """Read a resource."""
 
 # pylint: disable=too-few-public-methods
